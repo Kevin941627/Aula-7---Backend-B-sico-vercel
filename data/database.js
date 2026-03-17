@@ -35,17 +35,17 @@ let produtos = [
     {
         id: 2,
         categoriaId: 2,
-        nome: 'Pizzas Doces',
-        descricao: 'Chocolate com morango, Brigadeiro, Romeu e Julieta, Banana com Nutella/canela.',
-        preco: 70.00,
-        imagem: 'temaki-fila.png'
+        nome: 'Bebidas',
+        descricao: 'Lata 350ml (Coca-Cola, Guaraná, Sprite).',
+        preco: 7.00,
+        imagem: <img src="./img/refrigerante.png"></img>
     }
     ,{
         id: 3,
         categoriaId: 3,
-        nome: 'Bebidas',
-        descricao: 'Lata 350ml (Coca-Cola, Guaraná, Sprite).',
-        preco: 7.00,
+        nome: 'Petit Gateau',
+        descricao: 'Uma sobremesa individual composta por um bolinho de chocolate com casca fina e assada, recheado com um creme quente e cremoso do mesmo chocolate',
+        preco: 15.00,
         imagem: 'temaki-fila.png'
     }
 ];
