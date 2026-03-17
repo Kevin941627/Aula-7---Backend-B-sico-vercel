@@ -30,7 +30,7 @@ let produtos = [
         nome: 'As mais pedidas',
         descricao: 'Calabresa, Mussarela, Portuguesa, Frango com Catupity, Marguerita',
         preco: 65.70,
-        imagem: <img src="./img/pizza.png"></img>
+        imagem: './img/pizza.png'
     },
     {
         id: 2,
@@ -38,9 +38,9 @@ let produtos = [
         nome: 'Bebidas',
         descricao: 'Lata 350ml (Coca-Cola, Guaraná, Sprite).',
         preco: 7.00,
-        imagem: <img src="./img/refrigerante.png"></img>
-    }
-    ,{
+        imagem: './img/refrigerante.png'
+    },
+    {
         id: 3,
         categoriaId: 3,
         nome: 'Petit Gateau',
@@ -53,4 +53,4 @@ let produtos = [
 // ─── Exportação dos dados ─────────────────────────────────────
 // Exportamos as duas variáveis num único objeto para que outros
 // arquivos (como as rotas) possam importar e usar esses dados.
-module.exports = { categorias, produtos };
+module.exports = { categorias, produtos }
